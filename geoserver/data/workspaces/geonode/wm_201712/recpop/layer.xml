@@ -1,0 +1,18 @@
+<layer>
+  <name>recpop</name>
+  <id>LayerInfoImpl--45158cd6:1605a598e61:-7fde</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--45158cd6:1605a598e61:-7fdc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--45158cd6:1605a598e61:-7fe0</id>
+  </resource>
+  <queryable>true</queryable>
+  <opaque>false</opaque>
+  <attribution>
+    <title>user</title>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

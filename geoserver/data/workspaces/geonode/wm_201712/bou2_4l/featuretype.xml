@@ -1,0 +1,38 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--43cb20d8:160788e35ab:-78e1</id>
+  <name>bou2_4l</name>
+  <nativeName>bou2_4l</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-78ff667e:12476299803:-7ffe</id>
+  </namespace>
+  <title>bou2_4l</title>
+  <keywords>
+    <string>features</string>
+    <string>bou2_4l</string>
+  </keywords>
+  <srs>EPSG:404000</srs>
+  <nativeBoundingBox>
+    <minx>88.8405914306641</minx>
+    <maxx>135.315902709961</maxx>
+    <miny>3.15773010253906</miny>
+    <maxy>53.8086738586426</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>73.4469604492188</minx>
+    <maxx>135.085830688477</maxx>
+    <miny>3.40847730636597</miny>
+    <maxy>53.5579261779785</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>true</advertised>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--45158cd6:1605a598e61:-7fff</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

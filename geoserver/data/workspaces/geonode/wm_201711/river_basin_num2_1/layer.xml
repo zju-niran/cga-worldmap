@@ -1,0 +1,18 @@
+<layer>
+  <name>river_basin_num2_1</name>
+  <id>LayerInfoImpl-6f7f3ba2:160079af653:-4ac1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6f7f3ba2:160079af653:-4abf</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6f7f3ba2:160079af653:-4ac3</id>
+  </resource>
+  <queryable>true</queryable>
+  <opaque>false</opaque>
+  <attribution>
+    <title>user</title>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

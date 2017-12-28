@@ -1,0 +1,61 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--43cb20d8:160788e35ab:-705d</id>
+  <name>creekpop</name>
+  <nativeName>creekpop</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-78ff667e:12476299803:-7ffe</id>
+  </namespace>
+  <title>creekpop</title>
+  <keywords>
+    <string>creekpop</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;NAD83 / Texas Central (ftUS)&quot;, 
+  GEOGCS[&quot;NAD83&quot;, 
+    DATUM[&quot;North American Datum 1983&quot;, 
+      SPHEROID[&quot;GRS 1980&quot;, 6378137.0, 298.257222101, AUTHORITY[&quot;EPSG&quot;,&quot;7019&quot;]], 
+      TOWGS84[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6269&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4269&quot;]], 
+  PROJECTION[&quot;Lambert_Conformal_Conic_2SP&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9802&quot;]], 
+  PARAMETER[&quot;central_meridian&quot;, -100.33333333333333], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 29.666666666666668], 
+  PARAMETER[&quot;standard_parallel_1&quot;, 31.883333333333336], 
+  PARAMETER[&quot;false_easting&quot;, 2296583.333], 
+  PARAMETER[&quot;false_northing&quot;, 9842500.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;standard_parallel_2&quot;, 30.116666666666667], 
+  UNIT[&quot;foot_survey_us&quot;, 0.30480060960121924], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;2277&quot;]]</nativeCRS>
+  <srs>EPSG:2277</srs>
+  <nativeBoundingBox>
+    <minx>3027247.50000419</minx>
+    <maxx>3194878.87996386</maxx>
+    <miny>9990673.95259626</miny>
+    <maxy>1.01611738415827E7</maxy>
+    <crs class="projected">EPSG:2277</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-98.02380344995137</minx>
+    <maxx>-97.48033431047645</maxx>
+    <miny>30.042542424335704</miny>
+    <maxy>30.52191145492584</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--45158cd6:1605a598e61:-7fff</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

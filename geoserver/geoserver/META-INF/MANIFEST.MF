@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Application-Name: 
+Implementation-Title: Web Application (WAR)
+Implementation-Version: 2.12-SNAPSHOT
+Build-Timestamp: 2017-11-28T17:49:38Z
+Archiver-Version: Plexus Archiver
+Built-By: jenkins
+Specification-Title: Web Application (WAR)
+Implementation-Vendor-Id: org.opengeo
+GeoServerModule: core
+Project-Version: 2.12-SNAPSHOT
+Iteration-Name: 
+Git-Revision: 819b7ee62e8b7e70addf6f914c241ad94f0d2247
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_92
+Specification-Version: 2.12-SNAPSHOT
+

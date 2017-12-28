@@ -1,0 +1,37 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--43cb20d8:160788e35ab:-7fe3</id>
+  <name>circles</name>
+  <nativeName>circles</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-78ff667e:12476299803:-7ffe</id>
+  </namespace>
+  <title>circles</title>
+  <keywords>
+    <string>features</string>
+    <string>circles</string>
+  </keywords>
+  <srs>EPSG:404000</srs>
+  <nativeBoundingBox>
+    <minx>-1.67228276035913E7</minx>
+    <maxx>1.60079893643687E7</maxx>
+    <miny>-1.75478798279005E7</miny>
+    <maxy>1.5324929622196E7</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-1.67228276035913E7</minx>
+    <maxx>1.60079893643687E7</maxx>
+    <miny>-1.75478798279005E7</miny>
+    <maxy>1.5324929622196E7</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--45158cd6:1605a598e61:-7fff</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,23 @@
+<dataStore>
+  <id>DataStoreInfoImpl-6f7f3ba2:160079af653:-8000</id>
+  <name>wm_201711</name>
+  <type>PostGIS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-78ff667e:12476299803:-7ffd</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="database">wm_201711</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="validate connections">true</entry>
+    <entry key="passwd">crypt1:zfIGginPBwnuhK2z8WUs98TIQjBm8+cA</entry>
+    <entry key="port">5432</entry>
+    <entry key="min connections">1</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="host">172.20.10.3</entry>
+    <entry key="namespace">http://www.geonode.org/</entry>
+    <entry key="max connections">10</entry>
+    <entry key="user">worldmap</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

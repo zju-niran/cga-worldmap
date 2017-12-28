@@ -1,0 +1,18 @@
+<layer>
+  <name>china_gas_pipelines_qvc</name>
+  <id>LayerInfoImpl-6f7f3ba2:160079af653:-7faf</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6f7f3ba2:160079af653:-7fad</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6f7f3ba2:160079af653:-7fb1</id>
+  </resource>
+  <queryable>true</queryable>
+  <opaque>false</opaque>
+  <attribution>
+    <title>user</title>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
