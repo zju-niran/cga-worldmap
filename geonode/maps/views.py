@@ -675,6 +675,8 @@ def clean_config(conf):
     else:
         return conf
 
+def map_print(request, mapid=None, template='maps/map_print.html', snapshot=None):
+    return render_to_response(template, RequestContext(request, {}))
 
 def new_map(request, template='maps/map_new.html'):
     config = new_map_config(request)

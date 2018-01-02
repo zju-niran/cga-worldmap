@@ -22,7 +22,7 @@ from tastypie.api import Api
 
 from .api import TagResource, TopicCategoryResource, ProfileResource, \
     GroupResource, RegionResource, OwnersResource, ThesaurusKeywordResource, \
-    GroupCategoryResource
+    GroupCategoryResource, ActionLayerDeleteResource
 from .resourcebase_api import LayerResource, MapResource, DocumentResource, \
     ResourceBaseResource, FeaturedResourceBaseResource
 
@@ -41,3 +41,4 @@ api.register(FeaturedResourceBaseResource())
 api.register(OwnersResource())
 api.register(ThesaurusKeywordResource())
 api.register(GroupCategoryResource())
+api.register(ActionLayerDeleteResource())

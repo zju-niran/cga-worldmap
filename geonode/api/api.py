@@ -51,6 +51,7 @@ from tastypie.resources import ModelResource
 from tastypie.constants import ALL, ALL_WITH_RELATIONS
 from tastypie.utils import trailing_slash
 
+from actstream.models import Action
 
 FILTER_TYPES = {
     'layer': Layer,
@@ -579,3 +580,33 @@ class OwnersResource(TypeFilteredResource):
             'username': ALL,
         }
         serializer = CountJSONSerializer()
+
+class ActionLayerDeleteResource(ModelResource):
+
+    class Meta:
+        queryidarr = Action.objects.filter(data__contains={'raw_action': 'created'}, action_object_content_type_id=56).order_by('-timestamp').values_list('action_object_object_id', flat=True)
+        queryidarrint = []
+        for queryid in queryidarr:
+            queryidarrint.append(int(queryid))
+        queryset = ResourceBase.objects.exclude(id__in=queryidarrint)
+        allowed_methods = ['get', ]
+        fields = ['uuid',]
+
+# class ActionLayerDeleteResource(ModelResource):
+#     """Tags api"""
+
+#     def serialize(self, request, data, format, options=None):
+#         if options is None:
+#             options = {}
+#         options['count_type'] = 'keywords'
+
+#         return super(TagResource, self).serialize(request, data, format, options)
+
+#     class Meta:
+#         queryset = HierarchicalKeyword.objects.all().order_by('name')
+#         resource_name = 'keywords'
+#         allowed_methods = ['get']
+#         filtering = {
+#             'slug': ALL,
+#         }
+#         serializer = CountJSONSerializer()

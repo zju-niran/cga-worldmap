@@ -49,54 +49,34 @@ from geonode.security.models import remove_object_permissions
 from geonode.maps.encode import despam, XssCleaner
 from agon_ratings.models import OverallRating
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 logger = logging.getLogger("geonode.maps.models")
 ows_sub = re.compile(r"[&\?]+SERVICE=WMS|[&\?]+REQUEST=GetCapabilities", re.IGNORECASE)
 DEFAULT_CONTENT=_(
-    '<h3>The Harvard WorldMap Project</h3>\
-  <p>WorldMap is an open source web mapping system that is currently\
-  under construction. It is built to assist academic research and\
-  teaching as well as the general public and supports discovery,\
-  investigation, analysis, visualization, communication and archiving\
-  of multi-disciplinary, multi-source and multi-format data,\
-  organized spatially and temporally.</p>\
-  <p>The first instance of WorldMap, focused on the continent of\
-  Africa, is called AfricaMap. Since its beta release in November of\
-  2008, the framework has been implemented in several geographic\
-  locations with different research foci, including metro Boston,\
-  East Asia, Vermont, Harvard Forest and the city of Paris. These web\
-  mapping applications are used in courses as well as by individual\
-  researchers.</p>\
-  <h3>Introduction to the WorldMap Project</h3>\
-  <p>WorldMap solves the problem of discovering where things happen.\
-  It draws together an array of public maps and scholarly data to\
-  create a common source where users can:</p>\
-  <ol>\
-  <li>Interact with the best available public data for a\
-  city/region/continent</li>\
-  <li>See the whole of that area yet also zoom in to particular\
-  places</li>\
-  <li>Accumulate both contemporary and historical data supplied by\
-  researchers and make it permanently accessible online</li>\
-  <li>Work collaboratively across disciplines and organizations with\
-  spatial information in an online environment</li>\
-  </ol>\
-  <p>The WorldMap project aims to accomplish these goals in stages,\
-  with public and private support. It draws on the basic insight of\
-  geographic information systems that spatiotemporal data becomes\
-  more meaningful as more "layers" are added, and makes use of tiling\
-  and indexing approaches to facilitate rapid search and\
-  visualization of large volumes of disparate data.</p>\
-  <p>WorldMap aims to augment existing initiatives for globally\
-  sharing spatial data and technology such as <a target="_blank" href="http://www.gsdi.org/">GSDI</a> (Global Spatial Data\
-  Infrastructure).WorldMap makes use of <a target="_blank" href="http://www.opengeospatial.org/">OGC</a> (Open Geospatial\
-  Consortium) compliant web services such as <a target="_blank" href="http://en.wikipedia.org/wiki/Web_Map_Service">WMS</a> (Web\
-  Map Service), emerging open standards such as <a target="_blank" href="http://wiki.osgeo.org/wiki/Tile_Map_Service_Specification">WMS-C</a>\
-  (cached WMS), and standards-based metadata formats, to enable\
-  WorldMap data layers to be inserted into existing data\
-  infrastructures.&nbsp;<br>\
-  <br>\
-  All WorldMap source code will be made available as <a target="_blank" href="http://www.opensource.org/">Open Source</a> for others to use\
-  and improve upon.</p>'
+      '<h3>关于我们</h3>\
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+  灿烂辉煌的人类文明、浩如烟海的古今文献以及广袤无垠的\
+  陆地海洋，存在着海量的与人类活动息息相关的地理信息。\
+  就单个人物来说，包括人物的籍贯、行迹、社会关系的地理分布；\
+  就群体来说，包括一个群体的地理分布和迁徙轨迹；就非生命\
+  的物体来说，也有其存在、分布和变化的地理区域；就一个地\
+  方来说，则又包含了既往时间里人、事、物等地理信息的总汇。</p>\
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+  由浙江大学与哈佛大学共建的学术地图发布平台愿为广大\
+  用户提供地理信息研究成果的发布、可视化分析及多功能查\
+  询服务，平台所形成的大数据，可以为未来科学研究、政府决\
+  策及社会服务提供重要的参考。</p>\
+  <p style="text-align: right">浙江大学大数据与中国学术地图创新团队<br>\
+  哈佛大学地理分析中心<br>\
+  2017年12月18日<br></p>\
+  <h3>版权声明</h3>\
+  <p>　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+  “学术地图发布平台”的版权归“浙江大学大数据与中国学术\
+  地图创新团队”和“哈佛大学地理分析中心”共同所有。学者上传的\
+  地理信息数据与呈现的地图，版权归发布者和平台方共同所有。</p>'
 )
 
 class Map(ResourceBase, GXPMapBase):
