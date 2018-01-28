@@ -98,7 +98,22 @@ SIGN_CHARACTER = '$'
 SQL_PARAMS_RE = re.compile(r'%\(([\w_\-]+)\)s')
 
 http_client = httplib2.Http()
-
+_user = settings.OGC_SERVER_DEFAULT_USER
+_password = settings.OGC_SERVER_DEFAULT_PASSWORD
+http_client.add_credentials(_user, _password)
+http_client.add_credentials(_user, _password)
+_netloc = urlparse.urlparse(settings.GEOSERVER_LOCATION).netloc
+http_client.authorizations.append(
+    httplib2.BasicAuthentication(
+        (_user, _password),
+        _netloc,
+        settings.GEOSERVER_LOCATION,
+        {},
+        None,
+        None,
+        http_client
+    )
+)
 custom_slugify = Slugify(separator='_')
 
 signalnames = [

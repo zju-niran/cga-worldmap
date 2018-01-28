@@ -71,7 +71,7 @@ from geonode import geoserver, qgis_server
 from geonode.base.views import batch_modify
 
 from requests.compat import urljoin
-
+from urllib import urlencode, quote_plus
 if check_ogc_backend(geoserver.BACKEND_PACKAGE):
     # FIXME: The post service providing the map_status object
     # should be moved to geonode.geoserver.
@@ -978,7 +978,8 @@ def map_download(request, mapid, template='maps/map_download.html'):
             return redirect(url)
 
         # the path to geoserver backend continue here
-        resp, content = http_client.request(url, 'POST', layers=mapJson)
+        #resp, content = http_client.request(url, 'POST', body=quote_plus(mapJson))
+        resp, content = http_client.request(url, 'POST', body=mapJson)
 
         status = int(resp.status)
 
@@ -986,9 +987,11 @@ def map_download(request, mapid, template='maps/map_download.html'):
             map_status = json.loads(content)
             request.session["map_status"] = map_status
         else:
+            #map_status = json.loads(content)
+            #request.session["map_status"] = map_status
             raise Exception(
-                'Could not start the download of %s. Error was: %s' %
-                (map_obj.title, content))
+                'Could not start the download of %s. Error was: %s///%s' %
+                (status, map_obj.layer_set.all(), mapJson))
 
     locked_layers = []
     remote_layers = []
@@ -999,15 +1002,14 @@ def map_download(request, mapid, template='maps/map_download.html'):
             if not lyr.local:
                 remote_layers.append(lyr)
             else:
-                ownable_layer = Layer.objects.get(alternate=lyr.name)
+                ownable_layer = Layer.objects.get(typename=lyr.name)
                 if not request.user.has_perm(
                         'download_resourcebase',
                         obj=ownable_layer.get_self_resource()):
                     locked_layers.append(lyr)
                 else:
                     # we need to add the layer only once
-                    if len(
-                            [l for l in downloadable_layers if l.name == lyr.name]) == 0:
+                    if len([l for l in downloadable_layers if l.typename == lyr.name]) == 0:
                         downloadable_layers.append(lyr)
 
     return render_to_response(template, RequestContext(request, {
