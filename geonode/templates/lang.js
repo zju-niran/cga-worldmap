@@ -122,7 +122,9 @@ if (window.GeoExplorer) {
         submitendpointText: gettext("Submit a Map Service"),
         worldmapDataText: gettext("Search"),
         externalDataText: gettext("External Data"),
-        leavePageWarningText: gettext("If you leave this page, unsaved changes will be lost.")
+        leavePageWarningText: gettext("If you leave this page, unsaved changes will be lost."),
+        cgaharvardText: gettext("Center for Geographic Analysis"),
+        bdandcampText: gettext("Bigdata and CAMAP Innovation Team")
     });
 }
 

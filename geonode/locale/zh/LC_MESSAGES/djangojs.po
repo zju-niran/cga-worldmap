@@ -353,6 +353,10 @@ msgid "About"
 msgstr "关于"
 msgid "About us"
 msgstr "关于我们"
+msgid "Center for Geographic Analysis"
+msgstr "哈佛大学地理分析中心"
+msgid "Bigdata and CAMAP Innovation Team"
+msgstr "浙江大学大数据与中国学术地图创新团队"
 
 #: geonode/templates/lang.js:41
 msgid "<p>Your map is ready to be published to the web! </p><p> Simply copy the following HTML to embed the map in your website: </p>"
