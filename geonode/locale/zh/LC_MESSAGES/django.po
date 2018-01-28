@@ -3782,6 +3782,18 @@ msgid "About GeoNode"
 msgstr "关于GeoNode"
 
 #: geonode/templates/about.html:10
+msgid "GeoNode is a geospatial content management system, a platform for the management and publication of geospatial data. It brings together mature and stable open-source software projects under a consistent and easy-to-use interface allowing non-specialized users to share data and create interactive maps."
+msgstr "GeoNode是一个地理空间内容管理系统，用于管理地理空间数据发布平台。它将成熟且稳定的开放源码软件项目组合在一个一致且易于使用的界面上，允许非专业用户共享数据并创建交互式地图。"
+
+#: geonode/templates/about.html:10
+msgid "Data management tools built into GeoNode allow for integrated creation of data, metadata, and map visualizations. Each dataset in the system can be shared publicly or restricted to allow access to only specific users. Social features like user profiles and commenting and rating systems allow for the development of communities around each platform to facilitate the use, management, and quality control of the data the GeoNode instance contains."
+msgstr "GeoNode是一个地理空间内容管理系统，一个用于管理地理空间数据发布的平台。它将成熟且稳定的开源软件项目组合在一个基于一致性和易用性的界面上，允许非专业用户共享数据并创建交互式地图。"
+
+#: geonode/templates/about.html:10
+msgid "It is also designed to be a flexible platform that software developers can extend, modify or integrate against to meet requirements in their own applications."
+msgstr "它还被设计成一个灵活的，软件开发人员可以扩展、修改或集成的平台，以满足他们自己应用程序的需求。"
+
+#: geonode/templates/about.html:10
 msgid "About GeoNode."
 msgstr "关于GeoNode"
 
