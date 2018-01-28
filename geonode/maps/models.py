@@ -56,28 +56,21 @@ sys.setdefaultencoding('utf8')
 logger = logging.getLogger("geonode.maps.models")
 ows_sub = re.compile(r"[&\?]+SERVICE=WMS|[&\?]+REQUEST=GetCapabilities", re.IGNORECASE)
 DEFAULT_CONTENT=_(
-      '<h3>关于我们</h3>\
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
-  灿烂辉煌的人类文明、浩如烟海的古今文献以及广袤无垠的\
-  陆地海洋，存在着海量的与人类活动息息相关的地理信息。\
-  就单个人物来说，包括人物的籍贯、行迹、社会关系的地理分布；\
-  就群体来说，包括一个群体的地理分布和迁徙轨迹；就非生命\
-  的物体来说，也有其存在、分布和变化的地理区域；就一个地\
-  方来说，则又包含了既往时间里人、事、物等地理信息的总汇。</p>\
-  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
-  由浙江大学与哈佛大学共建的学术地图发布平台愿为广大\
-  用户提供地理信息研究成果的发布、可视化分析及多功能查\
-  询服务，平台所形成的大数据，可以为未来科学研究、政府决\
-  策及社会服务提供重要的参考。</p>\
-  <p style="text-align: right">浙江大学大数据与中国学术地图创新团队<br>\
-  哈佛大学地理分析中心<br>\
-  2017年12月18日<br></p>\
-  <h3>版权声明</h3>\
-  <p>　&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
-  “学术地图发布平台”的版权归“浙江大学大数据与中国学术\
-  地图创新团队”和“哈佛大学地理分析中心”共同所有。学者上传的\
-  地理信息数据与呈现的地图，版权归发布者和平台方共同所有。</p>'
-)
+    "<h4>About Us</h4><p>\
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+    A large amount of geographical information which is closely related to human activities exists in the <br>\
+    brilliant human civilization, numerous documents since ancient times, as well as the vast land and ocean. <br>\
+    For example, the geographical distribution of individuals, the traces and the social relations for a single <br>\
+    person, the migration of a group, as well as the existence, distribution and change of a region and <br>\
+    trajectory for non-living things; as for a place, it also contains the people, events, things and other <br>\
+    geographical information in previous time.</p>\
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
+    The Academic Map Publishing Platform, established by Zhejiang University and Harvard University <br>\
+    together, is not only an integrated database providing multi-functional query services, but also a display <br>\
+    platform ready for users to present their research productions about geographic information and visualize <br>\
+    analysis and select. The big data formed by the platform, will greatly contribute to future scientific <br>\
+    research, overnment decision-making and social services.</p>"
+    )
 
 class Map(ResourceBase, GXPMapBase):
 
