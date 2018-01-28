@@ -1127,15 +1127,15 @@ msgstr "您无权删除此文件"
 
 #: geonode/documents/views.py:50
 msgid "You do not have permissions for this document."
-msgstr "你没有此文件的权限"
+msgstr "您没有此文件的权限"
 
 #: geonode/documents/views.py:51
 msgid "You are not permitted to modify this document"
-msgstr "你没有修改此文件的权限"
+msgstr "您没有修改此文件的权限"
 
 #: geonode/documents/views.py:53
 msgid "You are not permitted to modify this document's metadata"
-msgstr "你没有权限修改此文件的元数据"
+msgstr "您没有权限修改此文件的元数据"
 
 #: geonode/documents/views.py:54
 msgid "You are not permitted to view this document"
@@ -1147,15 +1147,15 @@ msgstr "您不"
 
 #: geonode/documents/views.py:297
 msgid "You are not allowed to edit this document."
-msgstr "你不允许编辑此文档。"
+msgstr "您不允许编辑此文档。"
 
 #: geonode/documents/views.py:347 geonode/layers/views.py:525
 msgid "You must set a point of contact for this resource"
-msgstr "你必须为该资源设置一个联系点"
+msgstr "您必须为该资源设置一个联系点"
 
 #: geonode/documents/views.py:362 geonode/layers/views.py:540
 msgid "You must set an author for this resource"
-msgstr "你必须为该资源设置一个作者"
+msgstr "您必须为该资源设置一个作者"
 
 #: geonode/geoserver/__init__.py:27 geonode/messaging/management/__init__.py:31
 msgid "Layer Uploaded"
@@ -1319,7 +1319,7 @@ msgstr "空格或者用逗号隔开的关键词"
 
 #: geonode/groups/models.py:92
 msgid "Access"
-msgstr "使用权"
+msgstr "通道"
 
 #: geonode/groups/models.py:233 geonode/groups/models.py:252
 #: geonode/groups/templates/groups/group_members.html:28
@@ -1985,7 +1985,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          你确定你想要移除镶嵌颗粒 %(granule_id)s "
+"          您确定您想要移除镶嵌颗粒 %(granule_id)s "
 "<a href=\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
 "        "
 
@@ -2032,7 +2032,7 @@ msgid ""
 msgstr ""
 "注：此图的原单的元数据被填充通过导入元数据的XML文件。"
 "         GeoNode的元数据导入支持ISO，FGDC和都柏林核心元数据元素的一个子集。"
-"         一些你原来的元数据可能已经丢失。"
+"         一些您原来的元数据可能已经丢失。"
 
 
 #: geonode/layers/templates/layers/layer_metadata.html:63
@@ -2165,7 +2165,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          你确定你想要移除 <a href="
+"          您确定您想要移除 <a href="
 "\"%(layer.get_absolute_url)s\">%(layer_title)s</a>?\n"
 "        "
 
@@ -2298,13 +2298,13 @@ msgid ""
 "for\n"
 "the latitude and longitude."
 msgstr ""
-"我们没有检测到可能被用于纬度和经度列。请确认你有你的csv文件的两列，可用于经度"
+"我们没有检测到可能被用于纬度和经度列。请确认您有您的csv文件的两列，可用于经度"
 "和纬度。"
 
 #: geonode/layers/templates/upload/layer_upload_invalid.html:6
 #: geonode/layers/templates/upload/no_upload.html:6
 msgid "Your upload is either complete or you haven't resumed an earlier one."
-msgstr "您的上传或者是完整的，或者你还没有恢复较早之一。"
+msgstr "您的上传或者是完整的，或者您还没有恢复较早之一。"
 
 #: geonode/layers/templates/upload/layer_upload_invalid.html:7
 msgid "Return to"
@@ -2536,11 +2536,11 @@ msgstr "您无权以查看此图层"
 
 #: geonode/layers/views.py:728
 msgid "You are attempting to replace a vector layer with a raster."
-msgstr "你正在试图用栅格数据代替一个矢量图层。"
+msgstr "您正在试图用栅格数据代替一个矢量图层。"
 
 #: geonode/layers/views.py:731
 msgid "You are attempting to replace a raster layer with a vector."
-msgstr "你正在试图用一个矢量代替一个栅格图层。"
+msgstr "您正在试图用一个矢量代替一个栅格图层。"
 
 #: geonode/layers/views.py:789 geonode/layers/views.py:824
 msgid "Unable to delete layer"
@@ -2550,7 +2550,7 @@ msgstr "不能删除图层"
 msgid ""
 "This layer is a member of a layer group, you must remove the layer from the "
 "group before deleting."
-msgstr "该图层是一个图层组的成员，你必须在删除之前移除从组中移除该图层。"
+msgstr "该图层是一个图层组的成员，您必须在删除之前移除从组中移除该图层。"
 
 #: geonode/maps/__init__.py:28
 msgid "Map Created"
@@ -2743,7 +2743,7 @@ msgstr "复制该地图"
 
 #: geonode/maps/templates/maps/map_detail.html:210
 msgid "Duplicate this map and modify it for your own purposes"
-msgstr "复制该地图并且根据你自己的需要进行修改"
+msgstr "复制该地图并且根据您自己的需要进行修改"
 
 #: geonode/maps/templates/maps/map_detail.html:216
 msgid "Map WMS"
@@ -2782,7 +2782,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"在这里你可以下载这个地图上承载这个GeoNode的所有图层。"
+"在这里您可以下载这个地图上承载这个GeoNode的所有图层。"
 
 #: geonode/maps/templates/maps/map_download.html:22
 msgid ""
@@ -2792,7 +2792,7 @@ msgid ""
 "      "
 msgstr ""
 "\n"
-"<div class=\"alert alert-warning\">无法找到该地图下载层。你可以回去"
+"<div class=\"alert alert-warning\">无法找到该地图下载层。您可以回去"
 
 #: geonode/maps/templates/maps/map_download.html:29
 msgid ""
@@ -2854,7 +2854,7 @@ msgid ""
 msgstr ""
 "注：此图的原单的元数据被填充通过导入元数据的XML文件。"
 "        GeoNode的元数据导入支持ISO，FGDC和都柏林核心元数据元素的一个子集。"
-"        一些你原来的元数据可能已经丢失。"
+"        一些您原来的元数据可能已经丢失。"
 
 #: geonode/maps/templates/maps/map_metadata_advanced.html:22
 #, python-format
@@ -2885,7 +2885,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"          你确定你想要移除 <a href=\"%(map.get_absolute_url)s"
+"          您确定您想要移除 <a href=\"%(map.get_absolute_url)s"
 "\">%(map_title)s</a>?\n"
 "        "
 
@@ -2903,7 +2903,7 @@ msgstr "登录后才能保存地图"
 
 #: geonode/maps/views.py:84
 msgid "You are not permitted to save or edit this map."
-msgstr "你不允许保存或编辑此地图。"
+msgstr "您不允许保存或编辑此地图。"
 
 #: geonode/maps/views.py:86
 msgid "You are not allowed to modify this map's metadata."
@@ -2919,11 +2919,11 @@ msgstr "未知出错。"
 
 #: geonode/people/__init__.py:26
 msgid "User following you"
-msgstr "关注你的用户"
+msgstr "关注您的用户"
 
 #: geonode/people/__init__.py:26
 msgid "Another user has started following you"
-msgstr "另一个用户已经开始跟随你"
+msgstr "另一个用户已经开始跟随您"
 
 #: geonode/people/__init__.py:27
 msgid "User requested access"
@@ -3014,7 +3014,7 @@ msgstr "信息收集与研究的主要责任方"
 
 #: geonode/people/forms.py:64
 msgid "Email Address"
-msgstr "电邮地址"
+msgstr "Email"
 
 #: geonode/people/models.py:50
 msgid "Organization Name"
@@ -3131,7 +3131,7 @@ msgstr "忘记用户名"
 msgid ""
 "Enter your email address and click the submit button. <br />Your username "
 "will be sent to you."
-msgstr ""
+msgstr "请输入电子邮箱地址并点击提交按钮。<br />我们将向您发送您的用户名。"
 
 #: geonode/people/templates/people/profile_create.html:8
 #: geonode/people/templates/people/profile_create.html:14
@@ -3140,7 +3140,7 @@ msgstr "创建个人信息"
 
 #: geonode/people/templates/people/profile_detail.html:7
 msgid "Profile of "
-msgstr "简介"
+msgstr "简介-"
 
 #: geonode/people/templates/people/profile_detail.html:69
 #: geonode/people/templates/people/profile_detail.html:74
@@ -3261,11 +3261,11 @@ msgstr "编辑您的个人信息"
 
 #: geonode/people/templates/people/profile_edit.html:12
 msgid "Edit Profile for"
-msgstr "编辑信息给"
+msgstr "编辑信息于"
 
 #: geonode/people/templates/people/profile_edit.html:19
 msgid "Change your avatar"
-msgstr "改变你的头像"
+msgstr "更换头像"
 
 #: geonode/people/templates/people/profile_edit.html:30
 msgid "Update profile"
@@ -3282,7 +3282,7 @@ msgstr "您的用户名"
 
 #: geonode/people/views.py:106
 msgid "Your username has been emailed to you."
-msgstr "您的用户名已经电邮给你。"
+msgstr "用户名已发送到您的电子邮箱。"
 
 #: geonode/people/views.py:108
 msgid "No user could be found with that email address."
@@ -3470,7 +3470,7 @@ msgid ""
 "interface.\n"
 msgstr ""
 "\n"
-"打开Geoportal是由几所大学和机构的捐款，帮助推动在许多组织和平台，发现和采集的"
+"开源Geoportal是由几所大学和机构的捐款，帮助推动在许多组织和平台，发现和采集的"
 "地理空间数据的联合体。目前的合作伙伴包括：哈佛大学，麻省理工学院，MassGIS，普"
 "林斯顿大学，哥伦比亚大学，斯坦福大学，加州大学伯克利分校，加州大学洛杉矶分"
 "校，耶鲁大学，康涅狄格大学和。基于开源技术，开放Geoportal为企业提供了机会，通"
@@ -3604,9 +3604,9 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"            请联系你的GeoNode管理员（如果他正确安装了GeoNode"
+"            请联系您的GeoNode管理员（如果他正确安装了GeoNode"
 "他也许已经收到一封自动邮件。\n"
-"            如果你是网站管理员，能够调试去看真正的错误并修复错误或将其归档入"
+"            如果您是网站管理员，能够调试去看真正的错误并修复错误或将其归档入"
 "<a href=\"http://github.com/GeoNode/geonode/issues\">GeoNode's issue tracker</a>\n"
 "            "
 
@@ -3809,8 +3809,8 @@ msgid ""
 "with <b>%(email)s</b>. If the account is approved, you will receive a "
 "confirmation notice."
 msgstr ""
-"我们已经给管理员发送了一个通知准许你的账户与<b>%(email)s</b>连接。 "
-"如果该账户被批准，你将收到一个确认通知。"
+"我们已经给管理员发送了一个通知准许您的账户与<b>%(email)s</b>连接。 "
+"如果该账户被批准，您将收到一个确认通知。"
 
 #: geonode/templates/account/email/email_confirmation_message.txt:1
 #, python-format
@@ -3824,7 +3824,7 @@ msgstr ""
 "在 %(site_name)s 的用户已经创建了使用该电子邮件地址的帐户。为了证实这个电子邮"
 "件地址，转到 %(activate_url)s \n"
 "\n"
-"如果您没有注册这个网站，你可以忽略此消息。\n"
+"如果您没有注册这个网站，您可以忽略此消息。\n"
 
 #: geonode/templates/account/email/email_confirmation_subject.txt:1
 #, python-format
@@ -3841,8 +3841,8 @@ msgid ""
 "\n"
 "%(password_reset_url)s\n"
 msgstr ""
-"你收到这封电子邮件，因为你或其他人曾在 %(site_name)s 请求密码为您的用户帐户。"
-"它可以安全地忽略，如果你没有申请密码重置。点击以下链接重设密码。 \n"
+"您收到这封电子邮件，因为您或其他人曾在 %(site_name)s 请求密码为您的用户帐户。"
+"它可以安全地忽略，如果您没有申请密码重置。点击以下链接重设密码。 \n"
 "\n"
 "%(password_reset_url)s\n"
 
@@ -3854,7 +3854,7 @@ msgstr "[%(site_name)s] 密码重置"
 #: geonode/templates/account/email_confirmation_sent.html:6
 #: geonode/templates/account/email_confirmation_sent.html:11
 msgid "Confirm your email address"
-msgstr "确认你的邮件地址"
+msgstr "确认您的邮件地址"
 
 #: geonode/templates/account/email_confirmation_sent.html:14
 #, python-format
@@ -3880,7 +3880,7 @@ msgstr "忘记用户名？"
 
 #: geonode/templates/account/login.html:23
 msgid "Forgot your password?"
-msgstr "忘记密码了吗？"
+msgstr "忘记密码？"
 
 #: geonode/templates/account/logout.html:15
 msgid "Are you sure you want to log out?"
@@ -3896,7 +3896,7 @@ msgstr "更改密码"
 
 #: geonode/templates/account/password_change.html:18
 msgid "Change your password here"
-msgstr "在这里更改你的密码"
+msgstr "在这里更改您的密码"
 
 #: geonode/templates/account/password_change.html:24
 msgid "Change my password"
@@ -3919,7 +3919,7 @@ msgid ""
 "Enter your email address below, and we'll send you an email allowing you to "
 "reset it."
 msgstr ""
-"在下面输入你的邮件地址，我们将会给你发送一封邮件允许你重置密码。"
+"在下面输入您的邮件地址，我们将会向您发送一封允许您重置密码的邮件。"
 
 #: geonode/templates/account/password_reset.html:25
 msgid "Reset my password"
@@ -3932,7 +3932,7 @@ msgid ""
 "\"mailto:%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</"
 "a>."
 msgstr ""
-"如果您有任何麻烦重置您的密码，请联系我们， <a href=\"mailto:"
+"如果您在重置密码时遇到任何问题，请联系我们， <a href=\"mailto:"
 "%(THEME_ACCOUNT_CONTACT_EMAIL)s\">%(THEME_ACCOUNT_CONTACT_EMAIL)s</a>."
 
 #: geonode/templates/account/signup.html:7
@@ -3970,7 +3970,7 @@ msgstr ""
 
 #: geonode/templates/announcements/announcement_confirm_delete.html:13
 msgid "Are you sure you want to delete this announcement?"
-msgstr "你确定你想要删除这个公告"
+msgstr "您确定您想要删除这个公告"
 
 #: geonode/templates/announcements/announcement_form.html:11
 msgid "Edit Announcement"
@@ -4037,7 +4037,7 @@ msgstr "选择新的默认"
 
 #: geonode/templates/avatar/change.html:23
 msgid "Delete Your Avatar"
-msgstr "删除你的化身"
+msgstr "删除您的化身"
 
 #: geonode/templates/avatar/confirm_delete.html:6
 msgid "Please select the avatars that you would like to delete."
@@ -4048,7 +4048,7 @@ msgstr "请选择您想删除的化身。"
 msgid ""
 "You have no avatars to delete. Please <a href=\"%(avatar_change_url)s"
 "\">upload one</a> now."
-msgstr "你有没有替身删除。请<a href=\"%(avatar_change_url)s\">上传一个</a>吧。"
+msgstr "您有没有替身删除。请<a href=\"%(avatar_change_url)s\">上传一个</a>吧。"
 
 #: geonode/templates/avatar/confirm_delete.html:15
 msgid "Delete These"
@@ -4186,7 +4186,7 @@ msgid ""
 msgstr ""
 "\n"
 "    <p><a href=\"http://geonode.org/\">GeoNode</a> 是一个大件在开源软件上的开放服"
-"务。我们鼓励你利用它提供的组件和资源搭建新的应用。这个页面，对于那些对充分利用GeoNode感兴"
+"务。我们鼓励您利用它提供的组件和资源搭建新的应用。这个页面，对于那些对充分利用GeoNode感兴"
 "趣的开发者来说，是一个起点。它也包含了项目来源的链接，所以任何人都可以搭建和定制他们自己"
 "的GeoNode。</p>\n"
 "\n"
@@ -4197,8 +4197,8 @@ msgstr ""
 "\"http://github.com/GeoNode/geonode/issues\">http://github.com/GeoNode/"
 "geonode/issues</a>.</p>\n"
 "\n"
-"    <p>GeoNode是利用一些开源项目建立的，这些项目有自己的社区。如果你对给GeoNode贡献新的"
-"特色感兴趣，我们鼓励你加入其中之一的项目去实现这样的想法：</p>\n"
+"    <p>GeoNode是利用一些开源项目建立的，这些项目有自己的社区。如果您对给GeoNode贡献新的"
+"特色感兴趣，我们鼓励您加入其中之一的项目去实现这样的想法：</p>\n"
 "    <ul>\n"
 "      <li><a href=\"http://geoext.org\">GeoExt</a> - 富网络制图应用的JavaScript"
 "工具包</li>\n"
@@ -4215,7 +4215,7 @@ msgstr ""
 "    <p>服务这个应用的数据是利用开放的标准授权自<a href=\"http://opengeospatial.or"
 "g/\">Open Geospatial Consortium</a>;特别地，WMS(网络制图服务)是用来获得地图，WFS"
 "（网络要素服务）是用来获取矢量数据，WCS（网络覆盖服务）是用来获取栅格数据。WMC（网络制"
-"图环境文档）是用来分享地图的。你可以在你自己的应用上利用库例如OpenLayers, GeoTools,"
+"图环境文档）是用来分享地图的。您可以在您自己的应用上利用库例如OpenLayers, GeoTools,"
 " and OGR(这些全部都是开源软件且免费提供)去使用这些服务。</p>\n"
 "\n"
 "    <h3>什么是GeoWebCache?</h3>\n"
@@ -4224,7 +4224,7 @@ msgstr ""
 "数据和提供更多的响应地图对WMS加以改良。</p>\n"
 "\n"
 "    <h3>CSW代码示例</h3>\n"
-"    <p>你可以利用任何CSW客户端（QGIS MetaSearch, GRASS, etc.）去连接GeoNode的"
+"    <p>您可以利用任何CSW客户端（QGIS MetaSearch, GRASS, etc.）去连接GeoNode的"
 "下列例子举例说明了一种简单的利用OWSLib Python包的调用:</p>\n"
 "    <p><code>from owslib.csw import CatalogueServiceWeb</code></p>\n"
 "    <p><code>from owslib.fes import PropertyIsLike</code></p>\n"
@@ -4409,11 +4409,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"    <p>GeoNode提供获取数据集的通道和一种使用户能够浏览已存在地图和贡献自己的地图的地图"
+"    <p>GeoNode提供获取数据集的通道和一种使用户能够浏览已存在地图和投稿自己的地图的地图"
 "编辑应用。</p>\n"
 "\n"
 "    <h4 id=\"browsing-data\">浏览图层</h4>\n"
-"    <p><a href=\"/layers\">图层</a>标签允许你去浏览那些上川岛这个GeoNode的数据。</p>\n"
+"    <p><a href=\"/layers\">Layers</a>标签允许您去浏览那些被上传到GeoNode上的数据。</p>\n"
 "    <p>为了在其他应用上使用，所有数据都可以以多种格式下载。</p>\n"
 "\n"
 "    <h4 id=\"developer-access\">开发者使用权</h4>\n"
@@ -4422,29 +4422,29 @@ msgstr ""
 "\n"
 "    <h4 id=\"browsing-maps\">浏览地图</h4>\n"
 "    <p>GeoNode允许用户创建和分享地图给他人。</p>\n"
-"    <p><a href=\"/maps\">Maps</a>标签是一个在GeoNode上浏览地图的途径。从这里你可以"
+"    <p><a href=\"/maps\">Maps</a>标签是一个在GeoNode上浏览地图的途径。从这里您可以"
 "<strong>搜索一张地图</strong>或者<strong>创建一张地图</strong>, 这将会打开<a href"
 "=\"/maps/new\">地图编辑器</a>。</p>\n"
 "    <h5>谷歌地球模式</h5>\n"
 "    <p>任何在交互地图编辑器上观察的地图可以利用谷歌地球的插件用3D的形式进行观看。"
-"为了转换至3D模式，选择谷歌地球全球按钮，它在上方工具栏中最右方的。如果你没有安装谷歌地球的"
-"插件，你将会被提示安装插件。</p>\n"
+"为了转换至3D模式，选择谷歌地球按钮，它在上方工具栏中最右方的。如果您没有安装谷歌地球的"
+"插件，您将会被提示安装插件。</p>\n"
 "\n"
-"    <h4 id=\"creating-a-map\">创建一张地图</h4>\n"
-"    <p>为了创建一张新的地图，进入<a href=\"/maps\">贡献的地图</a>标签，然后点击<a hr"
-"ef=\"/maps/new\">创建你自己的地图</a>链接。</p>\n"
-"    <p>这将会带你进入<a href=\"/maps/new\">地图编辑器</a>，同时加载一个基础图层。</p>\n"
+"    <h4 id=\"creating-a-map\">创建地图</h4>\n"
+"    <p>为了创建一张新的地图，进入<a href=\"/maps\">查看地图</a>标签，然后点击<a hr"
+"ef=\"/maps/new\">创建您自己的地图</a>链接。</p>\n"
+"    <p>这将会带您进入<a href=\"/maps/new\">地图编辑器</a>，同时加载一个基础图层。</p>\n"
 "    <p>为了从GeoNode添加数据图层，点击绿色加号按钮，它位于图层底部，在屏幕的左手边。这"
 "将会打开一个会话，这个会话中列出了GeoNode上所有可用的图层。</p>\n"
-"    <p>为了添加图层倒你的地图，选中它们，点击<strong>添加图层</strong>按钮。当完成时，"
-"你可以点击<strong>Done</strong>去关闭会话，返回地图。</p>\n"
+"    <p>为了添加图层倒您的地图，选中它们，点击<strong>添加图层</strong>按钮。当完成时，"
+"您可以点击<strong>Done</strong>去关闭会话，返回地图。</p>\n"
 "\n"
 "    <h5>重排和移除图层</h5>\n"
 "    <p>通过简单地拖拽和放下它们的名称来改变列在标签中的图层展示顺序。在地图上的顺序将会"
 "通过更新体现出来。简单地不选中图层该将会关闭这个图层的可见性，选中图层并点击红色减号按钮"
 "将完全地移除该图层。</p>\n"
 "\n"
-"    <h5>保存你的地图</h5>\n"
+"    <h5>保存地图</h5>\n"
 "    <p>当找到一个合适的图层集和缩放级别时，需要进行保存，这样其他人就可以看见它。点击保"
 "存按钮--在顶部工具栏最左边的图标，一个带有磁盘的地图影像--在顶部菜单，然后填写地图的标题"
 "和摘要。</p>\n"
@@ -4453,12 +4453,12 @@ msgstr ""
 "    <p>任何来自GeoNode的地图可以在另一个网站或者博客被嵌入使用。发布一张地图：</p>\n"
 "    <ol>\n"
 "      <li>从社区地图列表或者地图页面中选择一个地图，然后单击\"发布地图\"按钮。</li>\n"
-"      <li>为安装向导产品选择你想要的高度和宽度。</li>\n"
+"      <li>为安装向导产品选择您想要的高度和宽度。</li>\n"
 "      <li>复制在安装向导中提供的HTML消息给任何HTML页面或者iFrame-supporting博客站"
 "</li>\n"
 "    </ol>\n"
-"    <p>这将会放置一个交互的装置在你的网络页面上展示你的地图或者博客站点。</p>\n"
-"    <p>注意<a href=\"/maps/new\">地图编辑器</a>也有一个发布地图的按钮。如果你有任"
+"    <p>这将会放置一个交互的装置在您的网络页面上展示您的地图或者博客站点。</p>\n"
+"    <p>注意<a href=\"/maps/new\">地图编辑器</a>也有一个发布地图的按钮。如果您有任"
 "何希望其他人看见的改动，请在发布地图前确认保存过地图。地图编辑器会发布最后一次保存的地图"
 "版本而不是最后看见的版本。</p>\n"
 "\n"
@@ -4466,18 +4466,18 @@ msgstr ""
 "    <p>任何可用的地图都可以作为一个新地图的起点。</p>\n"
 "    <ol>\n"
 "      <li>在地图编辑器中打开地图。</li>\n"
-"      <li>按照你的喜好添加或移除地图</li>\n"
+"      <li>按照您的喜好添加或移除地图</li>\n"
 "      <li>通过移动和缩放来高亮感兴趣的区域。</li>\n"
-"      <li><strong>重要</strong>更新标题、摘要、联系方式、信息和标签来显示新地图。</li>\n"
+"      <li><strong>重要:</strong>更新标题、摘要、联系方式、信息和标签来显示新地图。</li>\n"
 "      <li>保存地图。</li>\n"
 "    </ol>\n"
-"    <p>你将能够看见你的新地图，当你搜索地图自"
-"<a href=\"/maps\">Maps</a>标签</p>\n"
+"    <p>当您搜索地图自"
+"<a href=\"/maps\">Maps</a>标签，您将能够看见您的新地图</p>\n"
 "    "
 
 #: geonode/templates/help.html:66
 msgid "Sections"
-msgstr "路段"
+msgstr "章节"
 
 #: geonode/templates/help.html:67
 msgid "Browsing Layers"
@@ -4513,7 +4513,7 @@ msgid ""
 "\"http://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users\">mailing "
 "list</a>."
 msgstr ""
-"如果你有任何关于该软件或服务的问题，加入我们<a href=\"http://lists.osgeo.org/cgi-"
+"如果您有任何关于该软件或服务的问题，加入我们<a href=\"http://lists.osgeo.org/cgi-"
 "bin/mailman/listinfo/geonode-users\">mailing list</a>。"
 
 
@@ -4622,15 +4622,15 @@ msgstr "在线链接"
 
 #: geonode/templates/pinax/notifications/account_active/full.txt:3
 msgid "Your account has been approved and is now active."
-msgstr "你的账户已经被批准，现在处于活动状态。"
+msgstr "您的账户已经被批准，现在处于活动状态。"
 
 #: geonode/templates/pinax/notifications/account_active/full.txt:5
 msgid "You can use the login form at"
-msgstr "你可以使用登录表格"
+msgstr "您可以使用登录表格"
 
 #: geonode/templates/pinax/notifications/account_active/short.txt:3
 msgid "Your account is now active"
-msgstr "你的账户现在处于活动状态"
+msgstr "您的账户现在处于活动状态"
 
 #: geonode/templates/pinax/notifications/account_approve/full.txt:1
 msgid "has requested access to the site."
@@ -4639,7 +4639,7 @@ msgstr "已经请求进入网站。"
 #: geonode/templates/pinax/notifications/account_approve/full.txt:1
 msgid ""
 "You can enable access by setting the user as active on the admin section"
-msgstr "你可以在管理部分通过设置用户为活动状态进入"
+msgstr "您可以在管理部分通过设置用户为活动状态进入"
 
 #: geonode/templates/pinax/notifications/account_approve/short.txt:3
 msgid "A user has requested access to the site"
@@ -4659,7 +4659,7 @@ msgstr "被用户"
 #: geonode/templates/pinax/notifications/document_created/full.txt:6
 #: geonode/templates/pinax/notifications/document_updated/full.txt:6
 msgid "You can visit the document's detail page here"
-msgstr "你可以在这里阅读文档的具体信息"
+msgstr "您可以在这里阅读文档的具体信息"
 
 #: geonode/templates/pinax/notifications/document_comment/short.txt:3
 msgid "A comment has been posted for a document"
@@ -4719,7 +4719,7 @@ msgstr "下列文档"
 #: geonode/templates/pinax/notifications/layer_rated/full.txt:8
 #: geonode/templates/pinax/notifications/layer_updated/full.txt:6
 msgid "You can visit the layer's detail page here"
-msgstr "你可以在这里参阅该图层的具体信息"
+msgstr "您可以在这里参阅该图层的具体信息"
 
 #: geonode/templates/pinax/notifications/document_rated/short.txt:3
 msgid "A document has been rated"
@@ -4782,7 +4782,7 @@ msgstr "一个地图的评论已经发布"
 #: geonode/templates/pinax/notifications/map_rated/full.txt:8
 #: geonode/templates/pinax/notifications/map_updated/full.txt:6
 msgid "You can visit the map's detail page here"
-msgstr "你可以在这里参阅该地图的详细信息"
+msgstr "您可以在这里参阅该地图的详细信息"
 
 #: geonode/templates/pinax/notifications/map_comment/short.txt:3
 msgid "A comment has been posted for a map"
@@ -4822,12 +4822,12 @@ msgstr "一个地图已经更新"
 
 #: geonode/templates/pinax/notifications/request_download_resourcebase/full.txt:3
 msgid "requested you to download this resource"
-msgstr "请求你下载这个资源"
+msgstr "请求您下载这个资源"
 
 #: geonode/templates/pinax/notifications/request_download_resourcebase/full.txt:12
 msgid ""
 "Please go to resource page and assign the download permissions if you wish"
-msgstr "如果你愿意，请前往资源页面分配下载许可"
+msgstr "如果您愿意，请前往资源页面分配下载许可"
 
 #: geonode/templates/pinax/notifications/request_download_resourcebase/short.txt:3
 msgid "A resource's download has been requested"
@@ -4888,7 +4888,7 @@ msgstr "确定"
 #: geonode/templates/relationships/relationship_list.html:26
 #, python-format
 msgid "You're not %(status_slug)s anyone!"
-msgstr "你不是 %(status_slug)s 任何人！"
+msgstr "您不是 %(status_slug)s 任何人！"
 
 #: geonode/templates/relationships/success.html:5
 msgid "Success"
@@ -5112,7 +5112,7 @@ msgstr "<h4>关于我们</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
 #~ msgstr "不能为图层创建一个下载链接。"
 
 #~ msgid "Your selections"
-#~ msgstr "你的选择"
+#~ msgstr "您的选择"
 
 #~ msgid "Clear all filters"
 #~ msgstr "清空所有过滤器"
@@ -5123,7 +5123,7 @@ msgstr "<h4>关于我们</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
 #~ "        "
 #~ msgstr ""
 #~ "\n"
-#~ "          你确定你想要移除%(document_title)s?\n"
+#~ "          您确定您想要移除%(document_title)s?\n"
 #~ "        "
 
 #~ msgid ""
@@ -5132,7 +5132,7 @@ msgstr "<h4>关于我们</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
 #~ "    "
 #~ msgstr ""
 #~ "\n"
-#~ "        你确定你想要移除 %(map_title)s?\n"
+#~ "        您确定您想要移除 %(map_title)s?\n"
 #~ "    "
 
 #~ msgid "KML"
@@ -5190,7 +5190,7 @@ msgstr "<h4>关于我们</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
 #~ msgstr "赞成"
 
 #~ msgid "You do not have permission to view this document"
-#~ msgstr "你没有权限看这份文档"
+#~ msgstr "您没有权限看这份文档"
 
 #~ msgid "Remote Thumbnail"
 #~ msgstr "遥感缩略图"
@@ -5202,13 +5202,13 @@ msgstr "<h4>关于我们</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
 #~ msgstr "创建地图"
 
 #~ msgid "You do not have permission to view this layer"
-#~ msgstr "你没有权限看这个图层"
+#~ msgstr "您没有权限看这个图层"
 
 #~ msgid "View"
 #~ msgstr "看"
 
 #~ msgid "You do not have permission to view this map"
-#~ msgstr "你没有权限看这张地图"
+#~ msgstr "您没有权限看这张地图"
 
 #~ msgid "Add a Comment"
 #~ msgstr "添加评论"
@@ -5235,8 +5235,8 @@ msgstr "<h4>关于我们</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
 #~ "You do not have a verified email address to which notices can be sent. "
 #~ "You can add one by going to <a href=\"%(email_url)s\">Account</a>."
 #~ msgstr ""
-#~ "你没有一个已被验证可以用来发送通知的邮件地址。"
-#~ "你可以通过前往<a href=\"%(email_url)s\">账户</a>添加一个地址。"
+#~ "您没有一个已被验证可以用来发送通知的邮件地址。"
+#~ "您可以通过前往<a href=\"%(email_url)s\">账户</a>添加一个地址。"
 
 #~ msgid "Mark all unseen notices seen"
 #~ msgstr "设置所有未读通知为已读"
@@ -5254,4 +5254,4 @@ msgstr "<h4>关于我们</h4><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\
 #~ msgstr "通知"
 
 #~ msgid "you"
-#~ msgstr "你"
+#~ msgstr "您"
